@@ -17,7 +17,6 @@ import com.easybytes.accounts.dto.CustomerDto;
 import com.easybytes.accounts.dto.ResponseDto;
 import com.easybytes.accounts.service.IAccountsService;
 
-import lombok.AllArgsConstructor;
 
 @RestController 
 @RequestMapping(path="/api", produces= {MediaType.APPLICATION_JSON_VALUE})
