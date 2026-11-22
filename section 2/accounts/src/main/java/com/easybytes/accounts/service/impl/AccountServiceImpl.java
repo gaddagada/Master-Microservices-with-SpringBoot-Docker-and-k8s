@@ -59,10 +59,6 @@ public class AccountServiceImpl implements IAccountsService {
 	    newAccount.setAccountType(AccountsConstants.SAVINGS);
 	    newAccount.setBranchAddress(AccountsConstants.ADDRESS);
 
-	    // Set audit fields for the account
-	    newAccount.setCreatedAt(LocalDateTime.now());
-	    newAccount.setCreatedBy("Anonymous");
-
 	    return newAccount;
 	}
 	/** 
