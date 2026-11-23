@@ -11,8 +11,8 @@
 	<groupId>com.eazybytes</groupId>
 	<artifactId>loans</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<name>loans</name> 
+	<description>Microservice for Loans</description>
 	<url/>
 	<licenses>
 		<license/>
